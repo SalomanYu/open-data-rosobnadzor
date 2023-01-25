@@ -1,0 +1,62 @@
+from typing import NamedTuple
+
+
+class Certificate(NamedTuple):
+    IsFederal: bool
+    Id: str
+    ActualEducationOrganizationId: str
+    StatusName: str
+    StatusCode: str
+    TypeName: str
+    TypeCode: str
+    RegionName: str
+    RegionCode: str
+    FederalDistrictName: str
+    FederalDistrictShortName: str
+    FederalDistrictCode: str
+    RegNumber: int
+    SerialNumber: str
+    FormNumber: int
+    IssueDate: str
+    EndDate: str
+    ControlOrgan: str
+    PostAddress: str
+    EduOrgFullName: str
+    EduOrgShortName: str
+    EduOrgINN: str
+    EduOrgOGRN: str
+    IndividualEntrepreneurLastName: str
+    IndividualEntrepreneurFirstName: str
+    IndividualEntrepreneurMiddleName: str
+    IndividualEntrepreneurAddress: str
+    IndividualEntrepreneurEGRIP: str
+    IndividualEntrepreneurINN: str
+
+
+class ActualEducationOrganization(NamedTuple):
+    Id: str
+    FullName: str
+    ShortName: str
+    HeadEduOrgId: str
+    IsBranch: str
+    PostAddress: str
+    Phone: str
+    Fax: str
+    Email: str
+    WebSite: str
+    OGRN: str
+    INN: str
+    KPP: str
+    HeadPost: str
+    HeadName: str
+    FormName: str
+    FormCode: str
+    KindName: str
+    KindCode: str
+    TypeName: str
+    TypeCode: str
+    RegionName: str
+    RegionCode: str
+    FederalDistrictCode: str
+    FederalDistrictShortName: str
+    FederalDistrictName: str
